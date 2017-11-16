@@ -2,7 +2,7 @@ JDiskCollection is an implementation of collections that work on disk rather tha
 
 How to use?
 
-    		List<String> diskList = null;
+    	List<String> diskList = null;
 		try {
 			diskList = new ArrayDiskList<String>();
 		} catch (IOException e) {
